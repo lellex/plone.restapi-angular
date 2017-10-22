@@ -139,12 +139,12 @@ Finally, edit your app module (``./src/app/app.module.ts``):
 .. code-block:: javascript
 
   ...
-  import { CustomNavigation } from './src/custom-navigation/custom-navigation.component';
+  import { CustomNavigationComponent } from './src/custom-navigation/custom-navigation.component';
   ...
   @NgModule({
     declarations: [
       ...
-      CustomNavigation,
+      CustomNavigationComponent,
     ],
   ...
 
